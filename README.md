@@ -1,5 +1,6 @@
 # Cryptocurrency Wallet
 A simple simulated cryptocurrency wallet based on the Ruby framework Rails in the version 5.2
+
 Uma simples e simulada carteira de criptomoedas baseada no Framework Ruby on Rails na versão 5.2
 
 ## Api Used:
