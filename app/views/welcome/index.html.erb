@@ -1,0 +1,13 @@
+<!--Utilizando variaveis de sessão e query params-->
+<h1>Olá <%= @nome %>, Seja Bem vindo</h1>
+
+<!--Convertendo o valor para a notação de Real -->
+<p>O dólar hoje está valendo <%= number_to_currency(@valorDol, unit: "R$", separator: ",", delimiter: "") %>
+
+<!--Utilizando um helper para avisar em qual enviroment o utilizador esta-->
+<p>
+    Você está em ambiente de <strong><%= env_rails %></strong>
+</p>
+<p><strong>Data:</strong> <%= date_br(Date.today) %></p>
+
+<%= render "menu" %>
